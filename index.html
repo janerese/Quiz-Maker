@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- WEBSITE TITLE -->
+    <title>TSI Login</title>
+    <!-- ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- JAVASCRIPT -->
+    <script>
+      function validateInfo() {
+        var email = document.forms["myform"]["email"].value;
+        var pass = document.forms["myform"]["pass"].value;
+        if (email=="teacher@email.com" && pass=="password")
+        {
+          window.location.href="dashboard.html";
+        }
+        else if (email =="" || email == null)
+        {
+          alert("Email or Password cannot be blank!");
+        }
+        else if (pass =="" || pass == null)
+        {
+          alert("Email or Password cannot be blank!");
+        }
+        else
+        {
+          alert("Invalid Username and Password!");
+        }
+      }
+    </script>
+</head>
+    
+<body>
+  <section class="login-section">
+    <div class="content-box">      
+      <div class="form-layout">
+        <div class="logo-login">
+          <img src="logo.png">
+          <h1>The Software Institute</h1>
+        </div>
+        <div class="nav">
+          <div id="button-design"></div>
+          <button type="button" class="nav-button"> SIGN IN </button>
+          <button type="button" class="nav-button"> SIGN UP </button>
+        </div>
+        <form name="myform" method="post">
+          <div class="text-box">
+            <label> Email </label>
+            <input type="email" name="email" class="inputText">
+          </div>
+          <div class="text-box"> 
+            <label> Password </label>
+            <input type="password" name="pass" class="inputText">
+          </div>
+          <div class="terms">
+            <label><input type="checkbox">  
+              &nbsp&nbsp&nbspI agree to the <a href="" style="text-decoration: none">Terms of Service</a>, 
+              <a href="" style="text-decoration: none">General Terms<br> and Conditions</a> and 
+              <a href="" style="text-decoration: none">Privacy Policy</a>. </label>
+          </div>
+          <div class="text-box">
+            <input type="button" name="submit" id="submitButton" value="Submit" onclick="validateInfo()">
+          </div>
+          <br>
+          <hr>
+          <br>
+          <br>
+          <div class="or-with-box" method="post">
+            <button type="submit" class="socmed">
+                <img class="btn-icon" src="google-logo.png"> 
+                <a href="https://accounts.google.com/" style="text-decoration: none; color: black"> Continue with Google </a>
+            </button>
+          </div>
+          <div class="or-with-box" method="post">
+              <button type="submit" class="socmed">
+                  <img class="btn-icon" src="apple-logo.png"> 
+                  <a href="https://appleid.apple.com/sign-in" style="text-decoration: none; color:black"> Continue with Apple </a>
+              </button> 
+          </div>
+        </form>
+      </div>
+    </div>
+    <video class="image-box" autoplay loop muted playinsline>
+      <source src="videobg2.mp4" type="video/mp4">
+    </video>
+  </section>
+</body>
+</html>

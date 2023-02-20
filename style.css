@@ -1,0 +1,1034 @@
+/* FONTS USED IN THE WEBSITE */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/eagle-book');
+@import url('https://fonts.cdnfonts.com/css/mastery-kingdom');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F3FBff;
+    width: 100%;
+    height: 100vh;
+}
+
+/* LOGIN PAGE STYLE SECTION */
+.login-section{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+}
+
+.image-box{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.content-box{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    margin-left: 60px;
+}
+
+.logo-login{
+    text-align: center;
+}
+
+.logo-login img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo-login h1{
+    font-family: "Space Mono";
+}
+
+.nav{
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 30px 15px #EAE8F9;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#button-design{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to right, rgb(192,183,250), rgb(121,21,243));
+    border-radius: 30px;
+    transition: transfrom .5s;
+}
+
+.nav-button {
+    padding: 10px 55px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.text-box{
+    margin-bottom: 15px;
+    font-family: "DM Sans";
+}
+
+#submitButton{
+    background-color: #7F4FF3;
+    font-family: "Space Mono";
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+}
+
+#submitButton:hover{
+    cursor: pointer;
+    background-color: #EAE8F9;
+    color: #7F4FF3;
+}
+
+.text-box label{
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.text-box input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(192,183,250);
+    letter-spacing: 1px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.terms{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: .5px;
+    text-align: justify;
+    font-family: "DM Sans";
+}
+
+.socmed{
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    border: 1px solid rgb(192,183,250);
+    letter-spacing: 1px;
+    background: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
+
+.socmed .btn-icon{
+    width: 25px; 
+    height: 25px; 
+    float: left;      
+}
+
+
+/* MENU LEFT SIDE NAVIGATION STYLE SECTION */
+nav{
+    position: fixed;
+    background-image: linear-gradient(#844DF3ff, #7951F3ff, #7054F6ff);
+    height: 100%;
+    width: 220px;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(132, 77, 243, 0.6);
+}
+
+.logo{ 
+    text-align: center;
+    width: 210px; 
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo a{
+    color: white;
+    font-size: 25px;
+    line-height: 100%;
+    text-transform: capitalize;
+    font-family: "Fredoka One";
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    color: rgb(255, 191, 0);
+}
+
+.nav-title{
+    list-style-type: none;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "DM Sans", sans-serif;
+    bottom: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    display: table;
+    width: 220px;
+    margin-left: 10px;
+    top: 20px;
+}
+
+
+nav ul li a:hover{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #e69b00;
+}
+
+.bx{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.design{
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.design img{
+    width: 180px;
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.profile-nav{
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+.profile-nav a{
+    text-decoration: none; 
+}
+
+.profile-title{
+    list-style-type: none;
+    color: white;
+    position: relative;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "DM Sans";
+    bottom: 20px;
+    line-height: 0px;
+    margin-left: 5px;
+}
+
+.profile-title:hover{
+    color: rgb(255, 191, 0);
+}
+
+.profile-nav img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.student{
+    font-size: 10px;
+    margin-left: 70px;
+}
+
+.logout-nav{
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    margin-left: 35px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.logout-nav:hover{
+    background-color: #e69b00;
+}
+
+.logout-nav a{
+    text-decoration: none;
+}
+
+.logout-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "DM Sans";
+    color: black;
+    margin-left: 10px;
+}
+
+.fasss{
+    color: black;
+}
+
+/* DASHBOARD HEADER STYLE SECTION */
+
+header{
+    height: 250px;
+    align-items: center;
+    position: relative;
+    padding-left: 290px;
+    padding-top: 50px;
+    background-color: #F4F3FBff;
+}
+
+header h1:hover{
+    color: rgb(255, 191, 0);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.header-content{
+    height: 150px;
+    background: linear-gradient(to right,#9267f5,#7F4FF3);
+    position: absolute;
+    width: 77%;
+    border-radius: 30px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.header-content img{
+    height: 220px;
+    width: 350px;
+    margin-left: 70%;
+    position: absolute;
+    top: -50px;
+}
+
+.header-content h1{
+    text-align: center;
+    width: 50%;
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.dashboard-content{
+    padding-left: 280px;
+    width: 95%;
+    background-color: #F4F3FBff;
+}
+
+.total-boxes{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    width: 100%;
+}
+
+.total-box{
+    width: 24%;
+    display: flex;
+    background-color: #a897ff;
+    border-left: #583d98;
+    border-left-style: solid;
+    border-width: 10px;
+    text-align: left;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.total-box:hover{
+    border-left: #2c1f4c solid 10px; 
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.total-box h2:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    transition: 0.2s;
+    color: rgb(255, 231, 158);
+}
+
+.material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48;
+    color: rgb(255, 246, 219);
+    font-size: 50px;
+}
+
+.content h1{
+    font-family: "DM Sans";
+    font-size: 18px;
+}
+
+.content h2{
+    font-family: "Space Mono";
+    font-size: 30px;
+}
+
+.calendar{
+    background-color: #F4F3FBff;
+    padding-top: 50px;
+    font-family: "DM Sans";
+    margin-left: 20px;
+}
+
+.calendar h1{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: "Space Mono";
+    color: black;
+    padding: 0 10px 10px 0;
+}
+
+.calendar ul {
+    list-style-type: none;
+}
+
+.calendar li:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: rgb(255, 191, 0);
+}
+.month {
+    padding: 10px;
+    width: 100%;
+    background: #844DF3ff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Space Mono";
+}
+
+.month .prev {
+    float: left;
+}
+
+.month .next{
+    float: right;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 15px 0;
+    background-color: #C0B7FAff;
+    font-size: 15px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #EAE8F9;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:14px;
+    color: black;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #844DF3ff;
+    color: white !important
+}
+
+
+/* COURSES PAGE STYLE SECTION */
+.courses-header-content{
+    height: 150px;
+    background: linear-gradient(to right,#9267f5,#7F4FF3);
+    position: absolute;
+    width: 77%;
+    border-radius: 30px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.courses-header-content img{
+    height: 220px;
+    width: 350px;
+    margin-left: 68%;
+    position: absolute;
+    top: -40px;
+}
+
+.courses-header-content h1{
+    text-align: center;
+    width: 50%;
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.main{
+    position: relative;
+    padding-left: 295px;
+    width: 95%;
+    padding-top: 10px;
+}
+
+.courses-box{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: linear-gradient(to left, #c3abf7, #ded5f1, #c3abf7);
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    text-transform: capitalize;
+    height: 430px;
+}
+
+.courses-box .courses{
+    display: flex;
+}
+
+.box{
+    width: 33%;
+    height: 390px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.box h5{
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.box h3{
+    padding: 10px 10px 0;
+    font-size: 40px;
+    font-family: "Fredoka One";
+    font-weight: 100;
+}
+
+.box .title-course1{
+    color: rgb(234, 93, 5);
+}
+
+.box .title-course2{
+    color: rgba(28, 98, 179);
+}
+
+.box .title-course3{
+    color: rgba(104, 179, 35);
+}
+
+.box a{
+    font-size: px;
+    margin-top: 3px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.box .toquiz{
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.box p{
+    font-size: 12px;
+    margin-top: 2.5px;
+}
+
+.box button{
+    background: black;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 40px 10px 0;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background: #7F4FF3;
+    color: white;
+}
+
+.box i{
+    font-size: 7rem;
+    float: right;
+    margin: -20px 20px 20px 0;
+}
+
+.html{
+    color: rgb(234, 93, 5);
+}
+
+.css{
+    color: rgba(28, 98, 179);
+}
+
+.js{
+    color: rgba(104, 179, 35);
+}
+
+
+/* PROFILE PAGE STYLE SECTION */
+.profile-header-content{
+    height: 150px;
+    background: linear-gradient(to right,#9267f5,#7F4FF3);
+    position: absolute;
+    width: 77%;
+    border-radius: 30px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header-content img{
+    height: 220px;
+    width: 350px;
+    margin-left: 68%;
+    position: absolute;
+    top: -50px;
+}
+
+.profile-header-content h1{
+    text-align: center;
+    width: 50%;
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.profile-user{
+    padding-left: 20px;
+    top: 240px;
+    position: fixed;
+    width: 400px;
+    height: 65%;
+    right: 30px;
+    background-color: #F4F3FBff;
+    z-index: 1;
+    overflow: hidden;
+    border-left: 0.1px solid rgba(0, 0, 0, 0.3);
+}
+
+.profile-user-content{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.profile-user-side img{
+    width: 170px;
+    height: 170px;
+    position: relative;
+    border-radius: 60px;
+    border: 4px solid #7951F3ff;
+}
+
+.profile-user-side h1{
+    font-family: "DM Sans";
+    background-image: linear-gradient(to bottom right, #C0B7FAff, #7951F3ff, #7054F6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Space Mono";
+}
+
+.profile-user-side h3{
+    font-family: "DM Sans";
+    color: black;
+    font-size: 25px;
+}
+.profile-user-side p{
+    font-family: "DM Sans";
+    color: black;
+    font-size: 20px;
+}
+
+.profile-basic-info h2{
+    font-family: "Space Mono";
+    margin-top: 20px;
+}
+
+.profile-basic-info ul{
+    text-align: left;
+    font-family: "DM Sans";
+}
+
+.profile-basic-info ul li{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.profile-basic-info p{
+    padding-left: 10px;
+}
+
+.profile-page{
+    padding-left: 260px;
+}
+
+.main-profile{
+    margin-top: -20px;
+    left: 0;
+    position: relative;
+    width: 60%;
+    margin-left: 30px;
+}
+
+.main-profile-content h1{
+    font-family: "Space Mono";
+    padding-bottom: 10px;
+}
+
+.welcome-back{
+    background-image: url(welcome.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.welcome-back:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.welcome-back h1{
+    color: white;
+}
+
+.welcome-back p{
+    font-family: "DM Sans";
+    color: white;
+}
+
+.performance{
+    height: 200px;
+}
+.performance h1{
+    margin-top: 10px;
+}
+.performance img{
+    height: 220px;
+    width: 780px;
+    border-radius: 30px;
+    box-shadow: 0 20px 35px rgba(132, 77, 243, 0.3);
+}
+
+.performance img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.main-profile h1{
+    font-size: 25px;
+}
+
+/* QUIZ MAKER PAGE STYLE SECTION */
+.quiz-header{
+    height: 240px;
+}
+.quiz-header-content{
+    height: 150px;
+    background: linear-gradient(to right,#9267f5,#7F4FF3);
+    position: absolute;
+    width: 77%;
+    border-radius: 30px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-header-content img{
+    height: 220px;
+    width: 350px;
+    margin-left: 68%;
+    position: absolute;
+    top: -40px;
+}
+
+.quiz-header-content h1{
+    text-align: center;
+    width: 50%;
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+#quiz-contaniner{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-instructions{
+    background: linear-gradient(to bottom, #c3abf7, #a897ff, #9267f5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 300px;
+    overflow: hidden;
+    align-items: right;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 340px;
+}
+
+.quiz-input{
+    background: linear-gradient(to bottom, #c3abf7, #a897ff, #9267f5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 750px;
+    height: 100px;
+    overflow: hidden;
+    align-items: right;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.quiz-output{
+    background: linear-gradient(to bottom, #c3abf7, #a897ff, #9267f5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 750px;
+    align-items: right;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: -750px;
+}
+
+.filler{
+    height: 20px;
+}
+
+.quiz-instructions h1{
+    text-align: center;
+    font-family: "Fredoka One";
+    color: black;
+    font-weight: 200;
+    padding-top: 30px;
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+
+.instruction h2{
+    font-family: "Space Mono";
+    text-align: center;
+    background-color: #2c1f4c;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: rgb(251, 199, 45);
+    font-size: 20px;
+}
+
+.instruction h3{
+    font-family: "Space Mono";
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.instruction p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 130%;
+}
+
+.quiz-instructions h1{
+    padding: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.quiz-input h1{
+    padding: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.quiz-output h1{
+    padding: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 15px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.entered-question{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: solid #e4e4e4;
+    font-size: 16px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+}
+
+.add-question{
+    border: none;
+    border-radius: 10px;
+    background-color: #2c1f4c;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    outline: none;
+    font-size: 16px;
+    color: rgb(251, 199, 45);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.output{
+    background-color: #fff;
+    border: solid #e4e4e4;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    margin-top: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.output p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: 1px;
+}
+
+.output-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.output-buttons p{
+    color: #2c1f4c;
+    font-size: 15px;
+}

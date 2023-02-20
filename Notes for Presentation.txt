@@ -1,0 +1,27 @@
+Good morning/afternoon everyone. I am Erika Jane T. Reyes, the leader of Group 7 with members Crystal Jane Cadimas, Nhizalyn Toribio, and Jerico Viteno. Today, I am going to present our finished work for the 2nd group activity in this subject. In this activity, we were tasked to create a quiz maker application/wesbite in which the user can create his/her own quiz by adding questions. The type of quiz, whether it is multiple choice or true or false etc, is not yet included within the scope of this activity.
+
+In our last group activity, we were tasked to create a quiz master application/website in which the user will be the one to take the quiz. So, what we did last activity was to create a Learning Management System. For those who do not know, a learning management system is a software application or web-based technology that enables education institutions to create and manage lessons, courses, quizzes, and other learning and development programs. To give you an idea, google classroom is considered a learning management system which I think we all are familiar with. CANVAS is also an example of a learning management system that Univeristy of the Philippines or UP uses. This is a snippet of what the CANVAS dashboard looks like. Blackboard is another example of a learning management system that Adamson University uses. And this is a snippet of how the BLACKBOARD Courses Page looks like.
+
+Since the last activity is the user will be the one to take the quiz, we created the learning management system in the point of view of the student. Now, in this activity, the user will be the one to create the quiz, so we decided to implement the learning management system idea again in this quiz maker activity, but now in the point of view of the teacher or professor.So it is mostly similar to our last group activity, but we did some alterations and adjustments to make it more simple, and trasnform it to the point of view of the teacher.
+
+Now, I am done with my introduction. So, let me start now with the demonstration of our website.  Our website is called The Software Institute which kind of represents the university name that is using this learning management system. 
+
+So, the page you're seeing right now is the login page. This is our index page or the default page of our website when a visitor requests the site. We added functions using JavaScript for this login page. If the user clicked submit without entering his/her email and password, the user will not be able to visit the home page of the website and this alert window will show telling the user that email or password must not be blank. 
+
+To successfully login, the correct email and password must be entered so that hindi magiinvalid. Like this. Now that I've successfully entered the right email and pass, I can now enter the home page of our website or the Dashboard. Like most Learning Management System, our website also has a dashboard. But we only made it simpler compared to our last activity, so that there will not be too overwhelming and just focused on the quiz part. 
+
+The following pages are not really necessary but we added it to successfully implement the learning management system idea. 
+
+Now this is the profile par. This is kind of like an overview of who our target market is for this website. Which is a professor that specializes in software since Software institute nga. 
+
+Next is the Courses part. Since our target audience nga are professors that teaches software, we added courses that are related to it such as HTML, CSS, and Javascript. There's not much to this page, but it has a link so that we can now go to the quiz maker part. So when you click add quiz, it like, prang simulate the idea of adding a quiz to a particular course. 
+
+But to minimize clicks, we also added the Quiz Maker link on to the navigation so that you can directly access the quiz maker page kahit san ka pang page pumunta. 
+
+so punta na tayo sa main focus of this activity the quiz maker app. So this is how it looks like. Same as the other pages, may header that has good design and hover effects.It also has instruction on the left container, so that the user has an idea on how to make a quiz. 
+
+So katulad nga ng sabi sa instruction, to make a quiz, 1st add your questions. So first, type your questions. Then to add the question to your quiz, Just click the Add button. And pagkaadd mo, you can view the preview at the bottom part.So the user can add as many questions as he wants. Magkakaron lang ng scroll button, pag hindi na kumasya sa initial height nung quiz container.  
+
+2nd, if you want the delete a question that is also possible. Just click the X or remove button next to the question that you want to delete.
+
+So, that's all for the presentation of group 7.

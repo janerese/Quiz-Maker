@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <!-- META -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- WEBSITE TITLE -->
+        <title>TSI Courses</title>
+        <!-- ICONS -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- SIDE NAVIGATION SECTION -->
+        <nav>
+            <ul>
+                <div class="logo">
+                    <img src="logo.png"><br>
+                    <a href="dashboard.html">The Software Institute</a>
+                    </div>
+                <li><a href="dashboard.html" target="_top">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="nav-title">Dashboard</span>
+                </a></li>
+                <li><a href="courses.html" target="_top" class="collapsible">
+                    <i class='bx bxs-book-bookmark'></i>
+                    <span class="nav-title">Courses</span>
+                </a></li>
+                <li><a href="quiz.html" target="_top" class="collapsible">
+                    <i class='bx bxs-message-square-edit'></i>                
+                    <span class="nav-title">Quiz Maker</span>
+                </a></li>
+                <div class="profile-nav">
+                    <a href="profile.html" target="_top">
+                        <img src="profile-pic.png">
+                        <span class="profile-title">Software Professor<br><span class="student">Software Faculty</span></span>
+                    </a>
+                </div>
+                <div class="logout-nav">
+                    <a href="index.html" target="_top">
+                        <i class="fasss fa-solid fa-right-from-bracket"></i>
+                        <span class="logout-title">Log Out</span>
+                    </a>
+                </div>
+                <div class="design">
+                    <img src="navpic.png" alt="study">
+                </div>
+            </ul>
+        </nav>
+
+        <header class="courses-header">
+            <div class="courses-header-content">
+                <h1>Courses</h1>
+                <img src="courses-pic.png">    
+            </div>
+        </header>
+
+        <section class="main" id="courses">
+            <section class="main-courses">
+                <div class="courses-box">
+                    <div class="courses">
+                        <div class="box">
+                            <img src="html.png">
+                            <h3>HTML</h3>
+                            <h5 class="title-course1">Hypertext Markup Language</h5>
+                            <button><a href="quiz.html" class="toquiz">Add Quiz</a></button>
+                            <i class="fab fa-html5 html"></i>
+                        </div>
+                        <div class="box">
+                            <img src="css.png">
+                            <h3>CSS</h3>
+                            <h5 class="title-course2">Cascading Style Sheets</h5>
+                            <button><a href="quiz.html" class="toquiz">Add Quiz</a></button>
+                            <i class="fab fa-css3-alt css"></i>
+                        </div>
+                        <div class="box">
+                            <img src="js.png">
+                            <h3>JavaScript</h3>
+                            <h5 class="title-course3"> JavaScript</h5>
+                            <button><a href="quiz.html" class="toquiz">Add Quiz</a></button>
+                            <i class="fab fa-js-square js"></i>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+        </section>   
+    </body>
+</html>
